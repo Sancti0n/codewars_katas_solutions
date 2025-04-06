@@ -15,8 +15,6 @@ Finally the sum of all these multiples will be: 30 + 60 + 90 + 120 + 150 + 180 +
 
 We want a function that may calculate this sum with different values of n and m terms.
 
-Let's see some cases:
-
 ## Python
 ```python
 import math
