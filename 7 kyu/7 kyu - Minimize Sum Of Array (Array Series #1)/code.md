@@ -24,3 +24,17 @@ def min_sum(arr):
         arr.remove(min(arr))
     return s
 ```
+
+## PHP
+```php
+function minSum($arr) {
+  $s = 0;
+  sort($arr);
+  while (count($arr)>0) {
+    $s += $arr[count($arr)-1]*$arr[0];
+    array_shift($arr);
+    array_pop($arr);
+  }
+  return $s;
+}
+```
