@@ -1,29 +1,44 @@
-This series of katas will introduce you to basics of doing geometry with computers.
+Marcus was spending his last summer day playing chess with his friend Rose.
 
-Vector objects (struct in C) have x, y, and z attributes.
+Surprisingly, they had a lot of pieces (we suspect Marcus is a part-time thief, but we will leave that aside), and Marcus wondered in how many different positions could 8 towers (rooks) be in the board, without threatening themselves.
 
-Write a function calculating the cross product of Vector a and Vector b, the result should be a Vector object.
+Rose (who was smarter) was wondering if there was any relation between the size of the board, and the number of positions.
 
-[You can read more about cross product on Wikipedia.](https://en.wikipedia.org/wiki/Cross_product)
+So, you should help!
 
-Tests round answers to 6 decimal places.
+Write a function that, given N (positive-only integer) the size of the board , returns the number of different combinations in which these towers can be.
 
+## Example:
+```
+For a board of size 3, your function should return 6 because only the following possibilities can be achieved.
+
+| x 0 0 |  | x 0 0 |  | 0 x 0 |
+| 0 x 0 |  | 0 0 x |  | x 0 0 |
+| 0 0 x |  | 0 x 0 |  | 0 0 x |
+
+| 0 x 0 |  | 0 0 x |  | 0 0 x |
+| 0 0 x |  | x 0 0 |  | 0 x 0 |
+| x 0 0 |  | 0 x 0 |  | x 0 0 |
+```
 
 ## JavaScript
 ```js
-function crossProduct(a, b) {
-  let c = a.y*b.z - a.z*b.y;
-  let d = a.z*b.x - a.x*b.z;
-  let e = a.x*b.y - a.y*b.x;
-  return new Vector(c,d,e)
+function facto(n) {
+  if (n==1n) return 1n
+  return n*facto(n-1n)
+}
+
+function towerCombination(n) {
+  return facto(BigInt(n));
 }
 ```
 
 ## Python
 ```python
-def cross_product(a, b):
-    c = a.y*b.z - a.z*b.y
-    d = a.z*b.x - a.x*b.z
-    e = a.x*b.y - a.y*b.x
-    return Vector(c,d,e)
+def facto(n):
+    if n==1: return n
+    return n*facto(n-1)
+
+def tower_combination(n):
+    return facto(n)
 ```
