@@ -1,0 +1,26 @@
+Build a function that will take the length of each side of a triangle and return if it's either an Equilateral, an Isosceles, a Scalene or an invalid triangle.
+
+It has to return a string with the type of triangle.
+For example:
+```
+typeOfTriangle(2,2,1) --> "Isosceles"
+```
+
+## JavaScript
+```js
+var typeOfTriangle = function (sideA, sideB, sideC) {
+  if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC) || 2*Math.max(sideA, sideB, sideC) >= sideA + sideB + sideC) return "Not a valid triangle"
+  if (sideA == sideB && sideA == sideC) return "Equilateral"
+  if (sideA == sideB || sideA == sideC || sideB == sideC) return "Isosceles"
+  return "Scalene"
+}
+```
+
+## Python
+```python
+def type_of_triangle(a, b, c):
+    if type(a) is not int or type(b) is not int or type(c) is not int or 2*max(a,b,c) >= sum([a,b,c]): return "Not a valid triangle"
+    if a == b and a == c: return "Equilateral"
+    if a == b or a == c or b == c: return "Isosceles"
+    return "Scalene"
+```
