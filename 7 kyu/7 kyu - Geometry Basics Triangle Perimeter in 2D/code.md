@@ -29,3 +29,15 @@ def triangle_perimeter(triangle):
     BC = ((C[0]-B[0])**2 + (C[1]-B[1])**2)**.5
     return AB+BC+AC
 ```
+
+## Java
+```java
+public class GeometryBasics {
+  public static double trianglePerimeter(final Geometry.Triangle t) {
+    double AB = Math.pow(Math.pow(t.b.x-t.a.x, 2) + Math.pow(t.b.y-t.a.y, 2), .5);
+    double AC = Math.pow(Math.pow(t.c.x-t.a.x, 2) + Math.pow(t.c.y-t.a.y, 2), .5);
+    double BC = Math.pow(Math.pow(t.c.x-t.b.x, 2) + Math.pow(t.c.y-t.b.y, 2), .5);
+    return AB+BC+AC;
+  }
+}
+```
