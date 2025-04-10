@@ -7,7 +7,7 @@ Write a function that accepts an integer array and returns true if the array is 
 import java.util.Arrays;
 
 public class Solution {
-	public static boolean isAllPossibilities(int[] arg) {
+  public static boolean isAllPossibilities(int[] arg) {
     Arrays.sort(arg);
     if (arg.length-1 != arg[arg.length-1]) return false;
     for (int i=0;i<arg.length;i++) {
