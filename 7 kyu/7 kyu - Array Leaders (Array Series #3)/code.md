@@ -33,3 +33,16 @@ def array_leaders(numbers):
         if sum(numbers[i+1:])<numbers[i]: t.append(numbers[i])
     return t
 ```
+
+## PHP
+```php
+function arrayLeaders($numbers) {
+  $t = [];
+  for ($i=0;$i<count($numbers);$i++) {
+    if (array_sum(array_slice($numbers, $i+1))<$numbers[$i]) {
+      $t[] = $numbers[$i];
+    }
+  }
+  return $t;
+}
+```
