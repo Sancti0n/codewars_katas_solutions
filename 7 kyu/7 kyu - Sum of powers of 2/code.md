@@ -1,0 +1,34 @@
+Given a number n, you should find a set of numbers for which the sum equals n. This set must consist exclusively of values that are a power of 2 (eg: 2^0 => 1, 2^1 => 2, 2^2 => 4, ...).
+
+The function powers takes a single parameter, the number n, and should return an array of unique numbers.
+
+## Python
+```python
+import math
+
+def powers(n):
+    t = []
+    i = int(math.log2(n))
+    while i>=0:
+        if 2**i<=n:
+            t.insert(0,2**i)
+            n -= 2**i
+        i -= 1
+    return t
+```
+
+## JavaScript
+```js
+const powers = n => {
+  let t = [];
+  let i = parseInt(Math.log2(n));
+  while (i>=0) {
+    if (2**i<=n) {
+      t.unshift(2**i);
+      n -= 2**i;
+    }
+    i--;
+  }
+  return t
+};
+```
