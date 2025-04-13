@@ -32,3 +32,20 @@ const powers = n => {
   return t
 };
 ```
+
+## PHP
+```php
+function powers($n) {
+  $t = [];
+  $i = intval(log($n, 2));
+  while ($i>=0) {
+    if (2**$i<=$n) {
+      array_unshift($t , 2**$i);
+      $n -= 2**$i;
+    }
+    $i--;
+  }
+  print_r($t);
+  return $t;
+}
+```
