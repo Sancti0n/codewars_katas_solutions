@@ -1,5 +1,4 @@
-Your task is to get Zodiac Sign using input day and month.
-
+https://www.codewars.com/kata/5a376259b6cfd77ca000006b
 
 ## JavaScript
 ```js

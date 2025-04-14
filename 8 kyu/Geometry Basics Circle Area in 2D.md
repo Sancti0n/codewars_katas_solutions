@@ -1,14 +1,4 @@
-This series of katas will introduce you to basics of doing geometry with computers.
-
-Write the function circleArea/CircleArea which takes in a Circle object and calculates the area of that circle.
-
-```python
-class Circle:
-    def __init__(self, center, radius):
-        self.center = center
-        self.radius = radius
-```
-
+https://www.codewars.com/kata/58e3f824a33b52c1dc0001c0
 
 ## JavaScript
 ```js

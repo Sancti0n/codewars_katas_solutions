@@ -1,17 +1,4 @@
-Your task is to complete the function which takes a string, and returns an array with all possible rotations of the given string, in uppercase.
-
-scrollingText("codewars") should return:
-
-```
-[ "CODEWARS",
-  "ODEWARSC",
-  "DEWARSCO",
-  "EWARSCOD",
-  "WARSCODE",
-  "ARSCODEW"
-  "RSCODEWA",
-  "SCODEWAR" ]
-```
+https://www.codewars.com/kata/5a995c2aba1bb57f660001fd
 
 ## JavaScript
 ```js

@@ -1,16 +1,4 @@
-Write a function that, given N (positive-only integer) the size of the board , returns the number of different combinations in which these towers can be.
-
-```
-For a board of size 3, your function should return 6 because only the following possibilities can be achieved.
-
-| x 0 0 |  | x 0 0 |  | 0 x 0 |
-| 0 x 0 |  | 0 0 x |  | x 0 0 |
-| 0 0 x |  | 0 x 0 |  | 0 0 x |
-
-| 0 x 0 |  | 0 0 x |  | 0 0 x |
-| 0 0 x |  | x 0 0 |  | 0 x 0 |
-| x 0 0 |  | 0 x 0 |  | x 0 0 |
-```
+https://www.codewars.com/kata/58e440d8acfd3edfb2000aee
 
 ## JavaScript
 ```js

@@ -1,5 +1,4 @@
-Create an algorithm to count the number of zeros that appear between 1 and N.
-
+https://www.codewars.com/kata/557cffec8c3e8e55cc00010f
 
 ## Python
 ```python

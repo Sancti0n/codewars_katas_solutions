@@ -1,14 +1,4 @@
-An element is leader if it is greater than The Sum all the elements to its right side.
-
-```
-arrayLeaders ({1, 2, 3, 4, 0}) ==> return {4}
-```
-4 is greater than the sum all the elements to its right side
-```
-arrayLeaders ({16, 17, 4, 3, 5, 2}) ==> return {17, 5, 2}
-```
-17 is greater than the sum all the elements to its right side, 5 is greater than the sum all the elements to its right side, the last element 2 is greater than the sum of its right elements (abstract zero)
-
+https://www.codewars.com/kata/5a651865fd56cb55760000e0
 
 ## JavaScript
 ```js

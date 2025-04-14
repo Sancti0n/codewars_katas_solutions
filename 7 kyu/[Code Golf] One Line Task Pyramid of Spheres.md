@@ -1,7 +1,4 @@
-You are given 4 spheres, one of them lies on 3 others; all the spheres are in contact.
-All spheres have the same radius r.
-
-Your task is to write a function that accepts a radius r, and returns the distance between the bottom of the upper sphere and the plane on which they are all located (vertical dashed line at the image below). The answer should be rounded to 4 decimal places. If the function recieves invalid float for radius (r < 0), then it should return 0.0 as an answer.
+https://www.codewars.com/kata/5b74532131ef05150d000109
 
 ## Python
 ```python

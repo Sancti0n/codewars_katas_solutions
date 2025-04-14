@@ -1,10 +1,4 @@
-Build a function that will take the length of each side of a triangle and return if it's either an Equilateral, an Isosceles, a Scalene or an invalid triangle.
-
-It has to return a string with the type of triangle.
-For example:
-```
-typeOfTriangle(2,2,1) --> "Isosceles"
-```
+https://www.codewars.com/kata/564d398e2ecf66cec00000a9
 
 ## JavaScript
 ```js
