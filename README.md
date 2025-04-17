@@ -11,9 +11,9 @@ Total Languages Trained: 12
 Highest Trained: JavaScript (3 kyu)
 
 5 kyu: 2  
-6 kyu: 23  
-7 kyu: 116  
-8 kyu: 24  
+6 kyu: 26  
+7 kyu: 150  
+8 kyu: 27  
 
 Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
 
