@@ -10,6 +10,11 @@ Total Completed Kata: 1,196
 Total Languages Trained: 12  
 Highest Trained: JavaScript (3 kyu)
 
+5 kyu: 2  
+6 kyu: 23  
+7 kyu: 116  
+8 kyu: 24  
+
 Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
 
 ![image](https://www.codewars.com/users/Sancti0n/badges/large)
