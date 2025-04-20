@@ -6,14 +6,14 @@ Rank: 2 kyu
 Honor: 5,324  
 Leaderboard Position: #1,746  
 Honor Percentile: Top 0.248%  
-Total Completed Kata: 1,203  
+Total Completed Kata: 1,215  
 Total Languages Trained: 12  
 Highest Trained: JavaScript (3 kyu)
 
 5 kyu: 3  
-6 kyu: 30  
-7 kyu: 168  
-8 kyu: 38  
+6 kyu: 32  
+7 kyu: 194  
+8 kyu: 53  
 
 Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
 
