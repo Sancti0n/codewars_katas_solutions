@@ -9,3 +9,21 @@ def explode(arr):
     if type(b) == int: return [arr]*b
     return 'Void!'
 ```
+
+## JavaScript
+```js
+function createArr(a, b) {
+  let t = [];
+  for (let i=0;i<b;i++) {
+    t.push(a);
+  }
+  return t
+}
+
+function explode(x) {
+  if (typeof x[0] == "number" && typeof x[1] == "number") return createArr(x, x[0]+x[1]);
+  if (typeof x[0] == "number") return createArr(x, x[0]);
+  if (typeof x[1] == "number") return createArr(x, x[1]);
+  return 'Void!'
+}
+```
