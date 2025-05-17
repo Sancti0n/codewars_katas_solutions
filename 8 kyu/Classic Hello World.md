@@ -15,3 +15,14 @@ class Solution:
     def main(self):
         print("Hello World!")
 ```
+
+## PHP
+```php
+class Solution {
+  const CONST = 'Hello World!';
+
+  static function main() {
+    echo self::CONST;
+  }
+}
+```

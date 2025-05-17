@@ -8,3 +8,14 @@ def in_sphere(coords, radius):
         s += i**2
     return s <= radius**2
 ```
+
+## JavaScript
+```js
+function inSphere(coords, radius) {
+  let s = 0;
+  for (let i=0;i<coords.length;i++) {
+    s += coords[i]**2;
+  }
+  return s <= radius**2
+}
+```
