@@ -19,3 +19,14 @@ def kill_count(counselors, jason):
         if counselors[i][1]<jason: t.append(counselors[i][0])
     return t
 ```
+
+## PHP
+```php
+function killcount($counselors, $jason) {
+  $t = [];
+  for ($i=0;$i<count($counselors);$i++) {
+    if ($counselors[$i][1]<$jason) $t[] = $counselors[$i][0];
+  }
+  return $t;
+}
+```
