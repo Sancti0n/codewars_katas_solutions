@@ -25,3 +25,27 @@ def printer_error(s):
             x = "".join(s).split("m")
             return str(len(x[len(x)-1]))+'/'+str(l)
 ```
+
+## PHP
+```php
+function printerError($s) {
+  $c = 0;
+  for ($i=0;$i<strlen($s);$i++) {
+    if (ord($s[$i])>109) $c++;
+  }
+  return $c."/".strlen($s);
+}
+```
+
+## Java
+```java
+public class Printer {
+  public static String printerError(String s) {
+    int c = 0;
+    for (int i=0;i<s.length();i++) {
+      if ((int) s.charAt(i)>109) c++;
+    }
+    return String.valueOf(c) + "/" + String.valueOf(s.length());
+  }
+}
+```
