@@ -12,3 +12,10 @@ function average(scores) {
   return Math.round(scores.reduce((p, c) => p + c, 0)/scores.length)
 }
 ```
+
+## TypeScript
+```ts
+function average(scores) {
+  return Math.round(scores.reduce((p, c) => p + c, 0)/scores.length)
+}
+```

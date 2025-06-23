@@ -33,3 +33,11 @@ function find_average($arr) {
   return array_sum($arr)/count($arr);
 }
 ```
+
+## TypeScript
+```ts
+function find_average(arr) {
+  if (arr.length == 0) return 0
+  return (arr.reduce((a, b) => a + b,0))/arr.length
+}
+```

@@ -49,3 +49,14 @@ public class Printer {
   }
 }
 ```
+
+## TypeScript
+```ts
+function printerError(s) {
+  let c = 0;
+  for (let i=0;i<s.length;i++) {
+    if (s[i].charCodeAt(0)>109) c++;
+  }
+  return c + "/" + s.length
+}
+```

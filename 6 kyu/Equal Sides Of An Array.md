@@ -21,3 +21,17 @@ function findEvenIndex(arr) {
   return -1
 }
 ```
+
+## TypeScript
+```ts
+function sum(arr) {
+  return arr.reduce((p, c) => p + c, 0)
+}
+
+function findEvenIndex(arr) {
+  for (let i=0;i<arr.length;i++) {
+    if (sum(arr.slice(0,i)) == sum(arr.slice(i+1))) return i
+  }
+  return -1
+}
+```

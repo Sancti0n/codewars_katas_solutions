@@ -37,3 +37,10 @@ int quarter(int month) {
   return (month/3).ceil();
 }
 ```
+
+## TypeScript
+```ts
+export function quarterOf(month: number): number {
+  return Math.ceil(month/3)
+}
+```
