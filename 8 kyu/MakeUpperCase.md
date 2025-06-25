@@ -28,3 +28,15 @@ function makeUpperCase(string $input): string {
   return strtoupper($input);
 }
 ```
+
+## TypeScript
+```ts
+export function makeUpperCase(str: string): string{
+  return str.toUpperCase()
+}
+```
+
+## SQL
+```sql
+SELECT s, UPPER(s) as res FROM makeuppercase
+```
