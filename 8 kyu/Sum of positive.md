@@ -39,3 +39,12 @@ public class Positive{
   }
 }
 ```
+
+## TypeScript
+```ts
+export function positiveSum(arr:number[]):number {
+  let s = 0;
+  for (let i=0;i<arr.length;i++) if (arr[i]>0) s += arr[i];
+  return s
+}
+```

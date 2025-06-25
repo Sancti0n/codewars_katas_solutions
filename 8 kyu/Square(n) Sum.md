@@ -54,3 +54,12 @@ num squareSum(List numbers) {
   return s;
 }
 ```
+
+## TypeScript
+```ts
+export function squareSum(numbers: number[]): number {
+  let somme = 0;
+  for (let i=0;i<numbers.length;i++) somme += Math.pow(numbers[i],2);
+  return somme
+}
+```
