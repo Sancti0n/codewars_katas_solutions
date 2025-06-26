@@ -24,3 +24,15 @@ def triangular(n: int):
   if n<=0: return 0
   return n*(n+1)//2
 ```
+
+## SQL
+```sql
+SELECT 
+  n,
+  CASE
+    WHEN n<=0 THEN 0
+    ELSE n*(n+1)/2
+  END
+  AS res
+FROM triangular
+```

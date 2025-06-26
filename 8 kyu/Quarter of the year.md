@@ -44,3 +44,8 @@ export function quarterOf(month: number): number {
   return Math.ceil(month/3)
 }
 ```
+
+## SQL
+```sql
+SELECT month, CAST(CEIL(month/3.0) AS int) AS res FROM quarterof
+```

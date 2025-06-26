@@ -28,3 +28,19 @@ public class LeapYears {
     }
 }
 ```
+
+## SQL
+```sql
+select
+  year,
+  year%4 = 0 AND year%100 != 0 OR year%400 = 0 as is_leap
+from years
+order by year
+```
+
+## TypeScript
+```ts
+export function isLeap(year: number):boolean {
+  return year%4 == 0 && year%100 != 0 || year%400 == 0
+}
+```
