@@ -29,3 +29,10 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function interlockable(a: bigint, b: bigint): boolean {
+  return !(a&b)
+}
+```

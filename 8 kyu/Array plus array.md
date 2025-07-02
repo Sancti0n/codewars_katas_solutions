@@ -27,3 +27,14 @@ public class Sum {
     }
 }
 ```
+
+## TypeScript
+```ts
+export function sumArr(arr: number[]): number {
+  return arr.reduce((p, c) => p + c, 0)
+}
+
+export const arrayPlusArray = (arr1 : number[], arr2 : number[]) : number => {
+  return sumArr(arr1) + sumArr(arr2)
+}
+```
