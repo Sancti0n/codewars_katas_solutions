@@ -41,3 +41,10 @@ SELECT bool,
   END
 AS res FROM booltoword
 ```
+
+## TypeScript
+```ts
+export const boolToWord = (bool: boolean): string => {
+  return bool ? "Yes" : "No";
+};
+```
