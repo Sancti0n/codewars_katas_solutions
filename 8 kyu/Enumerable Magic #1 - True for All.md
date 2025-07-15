@@ -17,3 +17,20 @@ function all(seq, fun){
   return true
 }
 ```
+
+## Java
+```java
+import java.util.function.IntPredicate;
+
+public class Solution{
+  public static boolean all(int[] list, IntPredicate predicate){
+    // REMINDER: a Predicate "p" is tested for argument "arg" using p.test(arg)
+    for (int i=0;i<list.length;i++) {
+      if (!predicate.test(list[i])) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
+```
