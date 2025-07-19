@@ -17,3 +17,17 @@ function alternateSqSum(arr) {
   return s
 }
 ```
+
+## Java
+```java
+public class Kata {
+  public static int alternateSqSum(int[] arr) {
+    int s = 0;
+    for (int i=0;i<arr.length;i++) {
+      if (i%2 == 1) s += (int) Math.pow(arr[i], 2);
+      else s += arr[i];
+    }
+    return s;
+  }
+} 
+```
