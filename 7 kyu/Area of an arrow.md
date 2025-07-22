@@ -26,3 +26,12 @@ double arrow_area(unsigned a, unsigned b) {
   return (float)(b*a)/4;
 }
 ```
+
+## Java
+```java
+public class Solution {
+  public static double arrowArea(int a, int b) {
+    return (a*b)/4d;
+  }
+}
+```
