@@ -28,3 +28,21 @@ function skiponacci(n) {
   return s
 }
 ```
+
+## PHP
+```php
+function skiponacci(int $n): string {
+  $a = 0;
+  $b = 1;
+  $s = "1";
+  $m = 0;
+  for ($i=0;$i<$n-1;$i++) {
+    if ($i%2<1) $s .= " skip";
+    else $s .= " " . strval($a+$b);
+    $m = $a;
+    $a = $b;
+    $b = $m + $a;
+  }
+  return $s;
+}
+```
