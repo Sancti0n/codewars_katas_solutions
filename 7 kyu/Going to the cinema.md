@@ -39,3 +39,12 @@ public class Movie {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function movie(card: number, ticket: number, perc: number): number {
+  let n = 1;
+  while (Math.ceil(card + ticket*perc*((1-perc**n)/(1-perc))) - ticket*n >= 0) n++;
+  return n
+}
+```

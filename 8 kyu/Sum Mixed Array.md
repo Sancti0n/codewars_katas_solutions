@@ -37,3 +37,10 @@ public class MixedSum {
 	}
 }
 ```
+
+## TypeScript
+```ts
+export function sumMix(x: any[]): number {
+  return x.reduce((p, c) => parseInt(p) + parseInt(c), 0)
+}
+```

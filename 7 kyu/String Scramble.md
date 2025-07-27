@@ -19,3 +19,14 @@ function scramble(str, arr) {
   return t.join("")
 };
 ```
+
+## PHP
+```php
+function scramble(string $str, array $indices) : string {
+  $t = range(0,count($indices)-1);
+  for ($i=0;$i<strlen($str);$i++) {
+    $t[$indices[$i]] = $str[$i];
+  }
+  return implode("", $t);
+}
+```

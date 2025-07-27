@@ -47,3 +47,15 @@ class DivSeven {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function seven(m: number): number[] {
+  let c = 0;
+  while (m>99) {
+    m = Math.trunc(m/10) - 2*(parseInt(m.toString()[m.toString().length-1]));
+    c++;
+  }
+  return [m,c]
+}
+```

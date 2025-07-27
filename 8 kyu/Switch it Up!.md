@@ -32,3 +32,11 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function switchItUp(number:number):string {
+  let t = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
+  return t[number]
+}
+```
