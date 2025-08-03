@@ -20,3 +20,12 @@ function womensAge(n) {
   return `${n}? That's just 2${n%2}, in base ${~~(n/2)}!`
 }
 ```
+
+## Java
+```java
+public class Kata {
+  public static String womensAge(int n) {
+    return String.format("%s? That's just 2%s, in base %s!", n, n%2, n/2);  
+  }
+}
+```
