@@ -34,3 +34,10 @@ public class MonkeyCounter {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function monkeyCount(n: number) {
+  return [...Array(n+1).keys()].slice(1);
+}
+```

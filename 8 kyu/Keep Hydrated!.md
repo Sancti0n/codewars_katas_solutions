@@ -33,3 +33,10 @@ public class KeepHydrated  {
 ```sql
 SELECT id, hours, FLOOR(hours/2) AS liters FROM cycling
 ```
+
+## TypeScript
+```ts
+export function litres(time: number): number {
+  return Math.floor(time/2)
+}
+```
