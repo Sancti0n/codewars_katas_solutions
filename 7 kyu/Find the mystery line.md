@@ -6,3 +6,12 @@ function findMysteryEquation(func) {
   return [func(1) - func(0), func(0)];
 }
 ```
+
+## TypeScript
+```ts
+type MysteryFunction = (x: number) => number;
+
+export const findMysteryEquation = (func: MysteryFunction): [number, number] => {
+  return [func(1) - func(0), func(0)];
+}
+```

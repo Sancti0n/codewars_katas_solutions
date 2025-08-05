@@ -9,3 +9,21 @@ def eq_sum_powdig(hMax, exp):
         if i == sum(list(map(lambda x: x**exp, res))): t.append(i)
     return t
 ```
+
+## JavaScript
+```js
+function eqSumPowdig(hMax, exp) {
+  let t = [];
+  let st = "";
+  let v = 0;
+  for (let i=10;i<=hMax;i++) {
+    v = 0;
+    st = i.toString();
+    for (let j=0;j<st.length;j++) {
+      v += parseInt(st[j])**exp
+    }
+    if (i == v) t.push(i)
+  }
+  return t
+}
+```

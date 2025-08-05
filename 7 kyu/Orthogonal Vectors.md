@@ -19,3 +19,16 @@ function isOrthogonal(u,v) {
   return s == 0
 }
 ```
+
+## Java
+```java
+public class Solution{
+  public static boolean isOrthogonal(int[] u, int[] v){
+    int s = 0;
+    for (int i=0;i<u.length;i++) {
+      s += u[i]*v[i];
+    }
+    return s == 0;
+  }
+}
+```

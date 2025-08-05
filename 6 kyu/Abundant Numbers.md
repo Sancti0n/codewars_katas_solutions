@@ -21,3 +21,26 @@ def nearAbundant(n):
 def abundant(h):
     return nearAbundant(h)
 ```
+
+## JavaScript
+```js
+function findDiv(n) {
+  let i = n-1, s = 0;
+  while (i>1) {
+    if (n%i == 0) {
+      s += i;
+    }
+    i--;
+  }
+  return s
+}
+
+function abundant(h) {
+  let a = findDiv(h);
+  while (a<h) {
+    h--;
+    a = findDiv(h);
+  }
+  return [[h], [findDiv(h)-h+1]]
+}
+```

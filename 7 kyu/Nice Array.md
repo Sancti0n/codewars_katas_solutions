@@ -9,7 +9,7 @@ def is_nice(arr):
     return len(arr)>0
 ```
 
-## Java
+## JavaScript
 ```js
 function isNice(arr) {
   for (let i=0;i<arr.length;i++) {
@@ -42,5 +42,15 @@ public class Kata{
     }
     return arr.length>0;
   }
+}
+```
+
+## TypeScript
+```ts
+export function isNice(arr:number[]): boolean {
+  for (let i=0;i<arr.length;i++) {
+    if (arr.indexOf(arr[i]-1)<0 && arr.indexOf(arr[i]+1)<0) return false
+  }
+  return arr.length>0 
 }
 ```
