@@ -32,3 +32,14 @@ function generate($length) {
   return $a;
 }
 ```
+
+## TypeScript
+```ts
+export function generate(length: number): string {
+  let a = "";
+  for (let i=0;i<length;i++) {
+    a += Math.round(Math.random());
+  }
+  return a
+}
+```

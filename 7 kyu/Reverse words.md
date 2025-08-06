@@ -26,3 +26,12 @@ function reverseWords($str) {
   return implode(" ", $str);
 }
 ```
+
+## TypeScript
+```ts
+export function reverseWords(str: string): string {
+  let st = str.split(" ");
+  for (let i=0;i<st.length;i++) st[i] = st[i].split("").reverse().join("");
+  return st.join(" ")
+}
+```

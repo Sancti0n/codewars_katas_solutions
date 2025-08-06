@@ -13,3 +13,10 @@ function sakuraFall(v) {
   return v>0 ? 400/v : 0
 }
 ```
+
+## TypeScript
+```ts
+export function sakuraFall(v: number): number {
+  return v>0 ? 400/v : 0
+}
+```
