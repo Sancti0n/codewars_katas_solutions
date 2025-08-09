@@ -38,3 +38,17 @@ function digPow($n, $p) {
   return -1;
 }
 ```
+
+## TypeScript
+```ts
+export class G964 {
+  public static digPow = (n: number, p: number) => {
+    let s = n.toString(), v = 0;
+    for (let i=0;i<s.length;i++) {
+      v += parseInt(s[i])**p;
+      p++;
+    }
+    return Number.isInteger(v/n) ? v/n : -1
+  }
+}
+```

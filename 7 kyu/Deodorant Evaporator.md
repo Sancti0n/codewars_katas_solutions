@@ -1,0 +1,36 @@
+https://www.codewars.com/kata/5506b230a11c0aeab3000c1f
+
+## JavaScript
+```js
+function evaporator(content, evap_per_day, threshold){
+  let [v, c] = [content, 0];
+  while (v>(threshold/100)*content) {
+    v = v-v*evap_per_day/100;
+    c++;
+  }
+  return c
+}
+```
+
+## Python
+```python
+def evaporator(content, evap_per_day, threshold):
+    v, c = content, 0
+    while v>(threshold/100)*content:
+        v = v-v*evap_per_day/100
+        c += 1
+    return c
+```
+
+## PHP
+```php
+function evaporator($content, $evap_per_day, $threshold) {
+  $v = $content; 
+  $c = 0;
+  while ($v>($threshold/100)*$content) {
+    $v = $v-$v*$evap_per_day/100;
+    $c++;
+  }
+  return $c;
+}
+```

@@ -21,3 +21,10 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function hexToDec(hexString:string):number{
+  return parseInt(hexString, 16)
+}
+```

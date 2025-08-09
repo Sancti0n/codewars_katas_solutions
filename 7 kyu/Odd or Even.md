@@ -32,3 +32,10 @@ function odd_or_even(array $a): string {
   return array_sum($a)%2 ? "odd":"even";
 }
 ```
+
+## TypeScript
+```ts
+export function oddOrEven(array: number[]) {
+  return Math.abs(array.reduce((p,c) => p+c, 0))%2 == 1 ? "odd":"even"
+}
+```
