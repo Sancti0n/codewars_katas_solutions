@@ -51,3 +51,16 @@ function bouncingBall($h, $bounce, $window) {
   return $c + 1;
 }
 ```
+
+## TypeScript
+```ts
+export function bouncingBall(h: number, bounce: number, window: number): number {
+  if (h<0 || bounce<=0 || bounce>=1 || window<0 || window>=h) return -1
+  let c = 0;
+  while (h>window) {
+    h *= bounce;
+    if (h>window) c += 2;
+  }
+  return c + 1
+}
+```

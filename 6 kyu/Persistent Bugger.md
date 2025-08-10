@@ -73,3 +73,23 @@ class Persist {
 	}
 }
 ```
+
+## TypeScript
+```ts
+export function persistence(n: number): number {
+  let c = 0, nb = "";
+  if (n<10) return c
+  else {
+    while (n>=10) {
+      let a = 1;
+      nb = n.toString();
+      for (let i=0;i<nb.length;i++) {
+        a *= parseInt(nb[i]);
+      }
+      n = a;
+      c++;
+    }
+    return c
+  } 
+}
+```
