@@ -24,3 +24,11 @@ class Kata{
   }             
 }
 ```
+
+## TypeScript
+```ts
+export function sumTwoSmallestNumbers(n:Array<number>):number {  
+  n.sort((a, b) => a - b)
+  return n[0]+n[1]
+}
+```
