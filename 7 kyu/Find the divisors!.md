@@ -39,3 +39,17 @@ function divisors($integer) {
   else return $t;
 }
 ```
+
+## TypeScript
+```ts
+export function divisors(integer: number): number[] | string {
+  let i = 2;
+  let t = [];
+  while (i<(integer/2)+1) {
+    if (Number.isInteger(integer/i)) t.push(i);
+    i++;
+  }
+  if (t.length == 0) return integer.toString()+" is prime"
+  else return t
+}
+```

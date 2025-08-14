@@ -40,3 +40,15 @@ public class StringUtils {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function toAlternatingCase(s: string): string {
+  let t = s.split("");
+  for (let i=0;i<t.length;i++) {
+    if (t[i].toLowerCase() == t[i]) t[i] = t[i].toUpperCase();
+    else if (t[i].toUpperCase() == t[i]) t[i] = t[i].toLowerCase();
+  }
+  return t.join("")
+}
+```
