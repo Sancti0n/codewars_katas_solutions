@@ -35,3 +35,10 @@ function binaryArrayToNumber($arr) {
   return bindec(implode($arr));
 }
 ```
+
+## TypeScript
+```ts
+export function binaryArrayToNumber(arr: number[]): number{
+  return parseInt(arr.join(''), 2)
+};
+```

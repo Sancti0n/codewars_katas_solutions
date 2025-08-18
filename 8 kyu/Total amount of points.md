@@ -33,3 +33,15 @@ function points(array $games): int {
   return $s;
 }
 ```
+
+## TypeScript
+```ts
+export function points(games : string[]): number {
+  let s = 0;
+  for (let i=0;i<games.length;i++) {
+    if (parseInt(games[i].split(':')[0]) > parseInt(games[i].split(':')[1])) s += 3;
+    if (parseInt(games[i].split(':')[0]) == parseInt(games[i].split(':')[1])) s += 1;
+  }
+  return s
+}
+```

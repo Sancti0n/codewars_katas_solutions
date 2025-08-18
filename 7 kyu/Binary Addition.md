@@ -28,3 +28,10 @@ function add_binary($a, $b) {
   return decbin($a+$b);
 }
 ```
+
+## TypeScript
+```ts
+export function addBinary(a:number,b:number):string {
+  return (a+b).toString(2)
+}
+```

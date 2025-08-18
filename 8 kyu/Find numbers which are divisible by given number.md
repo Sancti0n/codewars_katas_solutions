@@ -27,3 +27,14 @@ function divisibleBy($numbers, $divisor) {
   return $t;
 }
 ```
+
+## TypeScript
+```ts
+export function divisibleBy(numbers: number[], divisor: number): number[]{
+  let t = [];
+  for (let i=0;i<numbers.length;i++) {
+    if (numbers[i]%divisor == 0) t.push(numbers[i])
+  }
+  return t
+}
+```

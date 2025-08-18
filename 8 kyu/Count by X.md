@@ -38,3 +38,15 @@ public class Kata{
   }
 }
 ```
+
+## TypeScript
+```ts
+export function countBy(x: number, n: number): number[] {
+  let t = [], i = x;
+  while (i<=x*n) {
+    t.push(i);
+    i += x;
+  }
+  return t
+}
+```

@@ -34,3 +34,10 @@ public class DescendingOrder {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function descendingOrder(n: number): number {
+  return Number(n.toString().split('').sort().reverse().join(''))
+}
+```

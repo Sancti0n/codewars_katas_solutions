@@ -32,3 +32,10 @@ public class Sequence{
   }
 }
 ```
+
+## TypeScript
+```ts
+export const reverseSeq = (n: number): number[] => {
+  return [...Array(n).keys()].map(x=>x+1).reverse()
+};
+```

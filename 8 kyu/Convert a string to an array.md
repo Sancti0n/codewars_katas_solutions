@@ -28,3 +28,10 @@ function string_to_array($s){
   return explode(" ", $s);
 }
 ```
+
+## TypeScript
+```ts
+export function stringToArray(s: string): string[] {
+	return s.split(' ')
+}
+```

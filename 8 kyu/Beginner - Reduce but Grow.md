@@ -37,3 +37,12 @@ public class Kata{
   }
 }
 ```
+
+## TypeScript
+```ts
+export function grow(arr: number[]): number {
+  let s = 1;
+  for (let i=0;i<arr.length;i++) s *= arr[i];
+  return s
+}
+```

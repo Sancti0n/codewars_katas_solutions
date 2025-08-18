@@ -21,3 +21,10 @@ public class Cockroach{
   }
 }
 ```
+
+## TypeScript
+```ts
+export function cockroachSpeed(s: number): number{
+  return s*1000/36 | 0
+}
+```

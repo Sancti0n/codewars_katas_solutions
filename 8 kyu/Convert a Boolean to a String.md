@@ -28,3 +28,10 @@ public class BooleanToString {
   }
 }
 ```
+
+## TypeScript
+```ts
+export const booleanToString = (b:boolean):string => {
+  return b.toString()
+};
+```

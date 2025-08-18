@@ -36,3 +36,10 @@ public class ThirdAngle {
 -- return a table with these columns and your result in a column named 'res'.
 SELECT a,b,180-a-b AS res FROM otherangle
 ```
+
+## TypeScript
+```ts
+export const otherAngle = (a: number, b: number): number => {
+  return 180 - a - b
+}
+```

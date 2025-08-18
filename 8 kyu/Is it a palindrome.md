@@ -14,3 +14,12 @@ function isPalindrome(x) {
   return a === x
 }
 ```
+
+## TypeScript
+```ts
+export function isPalindrome(x: string): boolean {
+  x = x.toLowerCase();
+  let a = x.split('').reverse().join('');
+  return a === x
+}
+```

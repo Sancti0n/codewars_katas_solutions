@@ -43,3 +43,14 @@ public class Solution {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function explode(s: string): string {
+  let w = "";
+  for (let i=0;i<s.length;i++) {
+    w += s[i].repeat(parseInt(s[i]));
+  }
+  return w
+}
+```
