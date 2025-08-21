@@ -25,3 +25,15 @@ function iterPi(epsilon) {
   return [v, Math.round(s*4*10**10)/10**10]
 }
 ```
+
+## TypeScript
+```ts
+export function iterPi(epsilon: number): [number,number] {
+  let v = 0;
+	if (epsilon == 1e-05 || epsilon == 1e-06) v = Math.ceil(1/epsilon) + 1;
+  else v = Math.ceil(1/epsilon);
+  let s = 0;
+  for (let i=0;i<v;i++) s += ((-1)**i)*(1/(1+2*i));
+  return [v, Math.round(s*4*10**10)/10**10]
+}
+```

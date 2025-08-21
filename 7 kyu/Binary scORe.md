@@ -35,3 +35,10 @@ public class BinaryScore {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function score(n: number): number {
+  return n == 0 ? 0 : 2**(n.toString(2).length)-1
+}
+```

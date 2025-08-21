@@ -38,3 +38,10 @@ SELECT number,
   END
 AS is_even FROM numbers
 ```
+
+## TypeScript
+```ts
+export function evenOrOdd(n:number):string {
+  return n%2 ? 'Odd': 'Even'
+}
+```

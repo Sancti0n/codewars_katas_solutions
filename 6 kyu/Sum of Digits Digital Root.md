@@ -29,3 +29,10 @@ function digital_root($n): int {
   return ($n - 1) % 9 + 1;
 }
 ```
+
+## TypeScript
+```ts
+export const digitalRoot = (n:number):number => {
+  return (n - 1)%9 + 1;
+};
+```

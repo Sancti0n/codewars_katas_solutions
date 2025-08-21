@@ -57,3 +57,18 @@ function perimeter($n) {
     return 4*fibo($n);
 }
 ```
+
+## TypeScript
+```ts
+export const perimeter = (n:number):number => {
+  let a = 1, b = 0, s = 0, sum = 0, i = 0;
+  while (i<n) {
+    s = a + b;
+    sum += a + b;
+    b = a;
+    a = s;
+    i++;
+  }
+  return 4*(sum+1)
+}
+```

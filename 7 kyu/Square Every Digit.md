@@ -49,3 +49,17 @@ public class SquareDigit {
   }
 }
 ```
+
+## TypeScript
+```ts
+export class Kata {
+  static squareDigits(num: number): number {
+    let n = num.toString();
+    let w = '';
+    for (let i=0;i<n.length;i++) {
+      w += Math.pow(Number(n[i]),2).toString();
+    }
+    return Number(w)
+  }
+}
+```

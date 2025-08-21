@@ -38,3 +38,14 @@ public class MutualRecursion {
     }
 }
 ```
+
+## TypeScript
+```ts
+export function F(n:number):number {
+  return n == 0 ? 1 : n - M(F(n-1))
+}
+
+export function M(n:number):number {
+  return n == 0 ? 0 : n - F(M(n-1))
+}
+```

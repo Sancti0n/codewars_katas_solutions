@@ -37,3 +37,11 @@ public class Tortoise {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function race(v1 : number, v2 : number, g : number) : [number, number, number] | null {
+  let t = 3600*g/(v2-v1);
+  return v2>v1 ? [Math.floor(t/3600), Math.floor(t/60%60), Math.floor(t%60)] : null
+}
+```
