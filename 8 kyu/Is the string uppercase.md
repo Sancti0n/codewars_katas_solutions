@@ -19,3 +19,10 @@ String.prototype.isUpperCase = function() {
   return this.toUpperCase() == this
 }
 ```
+
+## TypeScript
+```ts
+export function isUpperCase(str: string) : boolean {
+  return str.toUpperCase() == str
+}
+```
