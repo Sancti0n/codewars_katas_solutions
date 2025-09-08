@@ -17,3 +17,10 @@ function digitize(n) {
 def digitize(n):
     return list(map(int, str(n)[::-1]))
 ```
+
+## TypeScript
+```ts
+export const digitize = (n: number): number[] => {
+  return Array.from(String(n), Number).reverse();
+};
+```

@@ -31,3 +31,15 @@ function arrayDiff($a, $b) {
   return $t;
 }
 ```
+
+## TypeScript
+```ts
+export function arrayDiff(a: number[], b: number[]): number[] {
+  if (a.length == 0) return []
+  let t = [];
+  for (let i=0;i<a.length;i++) {
+    if (b.indexOf(a[i]) == -1) t.push(a[i]);
+  }
+  return t
+}
+```

@@ -19,3 +19,16 @@ function inSphere(coords, radius) {
   return s <= radius**2
 }
 ```
+
+## Java
+```java
+public class HyperSphere {
+	public static boolean inSphere(Double[] cords, int radius) {
+    double s = 0;
+    for (int i=0;i<cords.length;i++) {
+      s += Math.pow(cords[i], 2);
+    }
+    return s <= Math.pow(radius, 2);
+	}
+}
+```

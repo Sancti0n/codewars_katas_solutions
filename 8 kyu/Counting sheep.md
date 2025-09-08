@@ -32,3 +32,10 @@ function countSheep($arr) {
   return count(array_filter($arr));
 }
 ```
+
+## TypeScript
+```ts
+export function countSheeps(arrayOfSheep: (boolean | undefined | null)[]) {
+  return arrayOfSheep.filter(Boolean).length;
+}
+```
