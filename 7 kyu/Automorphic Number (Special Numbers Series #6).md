@@ -16,3 +16,12 @@ function automorphic(n){
   return a == b.substring(b.length-a.length) ? "Automorphic": "Not!!"
 }
 ```
+
+## TypeScript
+```ts
+export function automorphic(n: number): string {
+  let a = n.toString();
+  let b = (n**2).toString();
+  return a == b.substring(b.length-a.length) ? "Automorphic": "Not!!"
+}
+```
