@@ -19,3 +19,10 @@ function crossover($chromosome1, $chromosome2, $index) {
   return [substr($chromosome1, 0, $index) . substr($chromosome2, $index), substr($chromosome2, 0, $index) . substr($chromosome1, $index)];
 }
 ```
+
+## TypeScript
+```ts
+export function crossover(chromosome1: string, chromosome2: string, index: number) : string[] {
+  return [chromosome1.slice(0, index)+chromosome2.slice(index), chromosome2.slice(0, index)+chromosome1.slice(index)]
+};
+```

@@ -35,3 +35,14 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function compareNumbers(a: number, b: number) {
+  return a-b
+}
+
+export function nthSmallest(arr: number[], pos: number) {
+  return arr.sort(compareNumbers)[pos-1]
+}
+```

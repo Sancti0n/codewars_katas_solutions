@@ -12,3 +12,10 @@ function negationValue(s, value) {
   return s.length%2 ? !value: Boolean(value)
 }
 ```
+
+## PHP
+```php
+function negationValue($str, $val) {
+  return strlen($str)%2 ? !$val : boolval($val);
+}
+```

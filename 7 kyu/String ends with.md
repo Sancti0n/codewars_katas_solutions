@@ -28,3 +28,10 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function solution(s: string, ending: string): boolean {
+  return s.slice(s.length-ending.length) === ending
+}
+```
