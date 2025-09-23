@@ -19,3 +19,16 @@ function findLongest(arr){
   return a
 }
 ```
+
+## TypeScript
+```ts
+export class Kata {
+  static findLongest(arr:number[]):number {
+    let a = 0;
+    for (let i=0;i<arr.length;i++) {
+      if (arr[i].toString().length>a.toString().length) a = arr[i];
+    }
+    return a
+  }
+}
+```
