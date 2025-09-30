@@ -30,3 +30,10 @@ function getAge($response) {
   return explode(" ", $response)[0];
 }
 ```
+
+## TypeScript
+```ts
+export function get_age(age: string): number {
+  return Number(age.split(' ')[0])
+}
+```
