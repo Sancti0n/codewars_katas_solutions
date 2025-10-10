@@ -32,3 +32,22 @@ function lucasnum(n) {
   return (n<0 && Math.abs(n%2) == 1) ? -s: s
 }
 ```
+
+## Java
+```java
+public class Lucas {
+  public static int lucasnum (int n) {
+    if (n == 0) return 2;
+    if (Math.abs(n) == 1) return n<0 ? -1: 1;
+    int v = Math.abs(n);
+    int i = 2, s = 0, a = 2, b = 1;
+    while (i<=v) {
+      s = b + a;
+      i++;
+      a = b;
+      b = s;
+    }
+    return (n<0 && Math.abs(n%2) == 1) ? -s: s;
+  }
+}
+```

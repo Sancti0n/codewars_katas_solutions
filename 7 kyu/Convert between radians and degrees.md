@@ -11,3 +11,17 @@ def radians(deg):
 math.degrees=degrees
 math.radians=radians
 ```
+
+## JavaScript
+```js
+function degrees(rad) {
+  return (Math.round(18000*rad/Math.PI)/100).toString() + "deg"
+}
+
+function radians(deg) {
+  return (Math.round(Math.PI*deg/1.80)/100) + "rad"
+}
+
+Math.degrees = degrees
+Math.radians = radians
+```
