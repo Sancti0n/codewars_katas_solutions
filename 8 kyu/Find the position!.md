@@ -42,3 +42,11 @@ function position(string $alphabet): string {
   return "Position of alphabet: ".array_search($alphabet, $t)+1;
 }
 ```
+
+## TypeScript
+```ts
+export function position(alphabet:string):string {
+  let x = String.fromCharCode(...Array(123).keys()).slice(97).split("");
+  return "Position of alphabet: "+(x.indexOf(alphabet)+1).toString()
+}
+```

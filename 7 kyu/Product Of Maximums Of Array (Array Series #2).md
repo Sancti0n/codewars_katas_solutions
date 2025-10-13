@@ -32,3 +32,15 @@ function maxProduct(numbers, size) {
   return s
 }
 ```
+
+## TypeScript
+```ts
+export function maxProduct(numbers: number[], size: number): number {
+  numbers.sort((a,b)=>b-a);
+  let s = 1;
+  for (let i=0;i<size;i++) {
+    s *= numbers[i];
+  }
+  return s
+}
+```
