@@ -44,3 +44,25 @@ class Block {
   }
 }
 ```
+
+## Python
+```py
+class Block:
+    def __init__(self, d):
+        self.d = d
+    
+    def get_width(self):
+        return self.d[0]
+    
+    def get_length(self):
+        return self.d[1]
+    
+    def get_height(self):
+        return self.d[2]
+    
+    def get_volume(self):
+        return self.d[0]*self.d[1]*self.d[2]
+    
+    def get_surface_area(self):
+        return 2*(self.d[0]*self.d[1] + self.d[0]*self.d[2] + self.d[1]*self.d[2])
+```

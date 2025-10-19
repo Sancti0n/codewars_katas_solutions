@@ -43,3 +43,14 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function generateShape(int: number): string {
+  let w = "";
+  for (let i=0;i<int;i++) {
+    w += "+".repeat(int)+"\n";
+  }
+  return w.substring(0, w.length-1)
+}
+```

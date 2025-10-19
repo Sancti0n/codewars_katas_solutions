@@ -12,3 +12,22 @@ def show_sequence(n):
         else: w += str(i) + "+"
     return w + s
 ```
+
+## JavaScript
+```js
+var SequenceSum = (function() {
+  function SequenceSum() {}
+
+  SequenceSum.showSequence = function(count) {
+    if (count==0) return "0=0"
+    if (count<0) return count.toString()+"<0"
+    let s = (count*(count+1)/2).toString(), v = "";
+    for (let i=0;i<=count;i++) {
+      if (count == i) v += i.toString() + " = ";
+      else v += i.toString() + "+";
+    }
+    return v+s
+  };
+  return SequenceSum;
+})();
+```

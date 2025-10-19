@@ -18,3 +18,16 @@ function coordinates(degrees, radius) {
   return [x,y]
 }
 ```
+
+## Java
+```java
+import java.awt.geom.Point2D;
+
+public class CoordinatesInspector {
+  public static Point2D coordinates(double degrees, double radius) {
+    double x = Math.round((radius*Math.cos(degrees*Math.PI/180))*Math.pow(10, 10))/Math.pow(10, 10);
+    double y = Math.round((radius*Math.sin(degrees*Math.PI/180))*Math.pow(10, 10))/Math.pow(10, 10);
+    return new Point2D.Double(x, y);
+  }
+}
+```
