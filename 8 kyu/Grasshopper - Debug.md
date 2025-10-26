@@ -50,3 +50,16 @@ public class GrassHopper {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function weatherInfo(temp: number): string {
+  var c = convertToCelsius(temp)
+  if (c >= 0) return c + " is above freezing temperature"
+  return c + " is freezing temperature"
+}
+
+export function convertToCelsius(temperature: number): number {
+  return Math.round((temperature - 32)*(500000/9))/100000
+}
+```

@@ -21,3 +21,10 @@ public class Solution {
   }
 }
 ```
+
+## TypeScript
+```ts
+export const addFive = (num : number) : number => {
+  return num + 5;
+}
+```
