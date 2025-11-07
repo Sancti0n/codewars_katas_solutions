@@ -15,8 +15,8 @@ function areaOfPolygonInsideCircle(circleRadius, numberOfSides) {
 }
 ```
 
-## JavaScript
-```js
+## TypeScript
+```ts
 function areaOfPolygonInsideCircle(circleRadius, numberOfSides) {
     export function areaOfPolygonInsideCircle(circleRadius: number, numberOfSides: number): number {
         return Math.round(1000*numberOfSides*(circleRadius**2)*Math.sin(2*Math.PI/numberOfSides)/2)/1000;

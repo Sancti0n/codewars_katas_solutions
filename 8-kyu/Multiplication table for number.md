@@ -21,3 +21,17 @@ function multiTable(number) {
   return w
 }
 ```
+
+## Java
+```java
+class Kata {
+  public static String multiTable(int num) {
+    String s = "";
+    for (int i=1;i<11;i++) {
+      if (i == 10) s += String.valueOf(i) + " * " + String.valueOf(num) + " = " + String.valueOf(num*i);
+      else s += String.valueOf(i) + " * " + String.valueOf(num) + " = " + String.valueOf(num*i) + "\n";
+    }
+    return s;
+  }
+}
+```

@@ -12,3 +12,14 @@ function recycleMe(arr){
   return t
 }
 ```
+
+## Python
+```py
+def recycle_me(rubbish):
+    t = [0]*3
+    for i in rubbish:
+        if i>0: t[0] += 1
+        elif i<0: t[1] += 1
+        elif i==0: t[2] += 1
+    return (t[0], t[1], t[2])
+```

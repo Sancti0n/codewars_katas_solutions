@@ -11,3 +11,20 @@ def palindrome_chain_length(n):
         c += 1
     return c
 ```
+
+## JavaScript
+```js
+function reverseNumber(n) {
+    return parseInt(n.toString().split("").reverse().join(""));
+}
+
+var palindromeChainLength = function (n) {
+    if (n == reverseNumber(n)) return 0
+    let s = n + reverseNumber(n), c = 1;
+    while (s != reverseNumber(s)) {
+        s += reverseNumber(s);
+        c++;
+    }
+    return c;
+};
+```

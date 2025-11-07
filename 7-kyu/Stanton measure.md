@@ -12,3 +12,19 @@ function stantonMeasure(arr) {
 def stanton_measure(arr):
     return arr.count((arr.count(1)))
 ```
+
+## Java
+```java
+public class Kata {
+  
+  public static int countInArr(int[] arr, int v) {
+    int count = 0;
+    for (int i=0;i<arr.length;i++) if (arr[i] == v) count++;
+    return count;
+  }
+  
+  public static int stantonMeasure(int[] arr) {
+    return countInArr(arr, countInArr(arr, 1));
+  }
+}
+```
