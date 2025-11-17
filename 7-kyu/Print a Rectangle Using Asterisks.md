@@ -11,3 +11,13 @@ function getRectangleString(width, height) {
   return s
 }
 ```
+
+## Python
+```py
+def get_rectangle_string(width, height):
+    s = ""
+    for i in range(height):
+        if i==0 or i==height-1: s += "*"*width + "\r\n"
+        else: s += "*" + " "*(width-2) + "*\r\n"
+    return s
+```

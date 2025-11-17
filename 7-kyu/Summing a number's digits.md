@@ -22,3 +22,18 @@ function sumDigits(int $number): int{
   return array_sum($t);
 }
 ```
+
+## Java
+```java
+public class Kata{
+  public static int sumDigits(int number) {
+    int s = 0;
+    number = Math.abs(number);
+    while (number > 0) {
+      s += number%10;
+      number /= 10;
+    }
+    return s;
+  }
+}
+```
