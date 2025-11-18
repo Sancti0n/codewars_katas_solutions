@@ -12,3 +12,8 @@ function describeAge(age) {
   return "You're a(n) "+(age<13?"kid":age<18?"teenager":age<65?"adult":"elderly")
 }
 ```
+
+## Java
+```java
+public class C{public static String describeAge(int a){return"You're a(n) "+(a<13?"kid":a<18?"teenager":a<65?"adult":"elderly");}}
+```
