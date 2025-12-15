@@ -14,3 +14,16 @@ function flickSwitch(arr) {
   return arr
 }
 ```
+
+## Python
+```py
+def flick_switch(lst):
+    v = True
+    for i in range(len(lst)):
+        if (lst[i] == "flick"):
+            lst[i] = not v
+            v = not v
+        else:
+            lst[i] = v
+    return lst
+```
