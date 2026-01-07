@@ -27,7 +27,10 @@ function areaOfPolygonInsideCircle(circleRadius, numberOfSides) {
 ## PHP
 ```php
 function areaOfPolygonInsideCircle($circleRadius, $numberOfSides): float {
-  return round($numberOfSides*($circleRadius**2)*sin(2*pi()/$numberOfSides)/2, 3);
+  return round(
+    $numberOfSides
+    *($circleRadius**2)
+    *sin(2*pi()/$numberOfSides)/2, 3);
 }
 ```
 
@@ -35,7 +38,8 @@ function areaOfPolygonInsideCircle($circleRadius, $numberOfSides): float {
 ```java
 public class Kata {
   public static double areaOfPolygonInsideCircle(double circleRadius, int numberOfSides) {
-    return (double)Math.round(numberOfSides*Math.pow(circleRadius, 2)*Math.sin(2*Math.PI/numberOfSides)*500)/1000;
+    return (double)Math.round(numberOfSides*Math.pow(circleRadius, 2)
+    *Math.sin(2*Math.PI/numberOfSides)*500)/1000;
   }
 }
 ```

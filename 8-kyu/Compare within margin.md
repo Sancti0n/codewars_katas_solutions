@@ -12,3 +12,17 @@ function closeCompare(a, b, margin=0) {
   return Math.abs(a-b)<=margin ? 0: a<b ? -1: 1
 }
 ```
+
+## Java
+```java
+public class Solution {
+
+  public static int closeCompare(double a, double b) {
+    return a == b ? 0 : a<b ? -1 : 1;
+  }
+  
+  public static int closeCompare(double a, double b, double margin) {
+    return Math.abs(a-b)<=margin ? 0: a<b ? -1: 1;
+  }
+}
+```

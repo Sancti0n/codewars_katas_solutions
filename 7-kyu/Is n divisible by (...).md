@@ -17,3 +17,15 @@ function isDivisible(...a){
   return true
 }
 ```
+
+## Java
+```java
+public class Divisible {
+  public static boolean isDivisible(int...arr) {
+    for (int i=1;i<arr.length;i++) {
+      if (arr[0]%arr[i] != 0) return false;
+    }
+    return true;
+  }
+}
+```

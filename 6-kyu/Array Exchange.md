@@ -19,3 +19,23 @@ def exchange_with(a, b):
     while len(b)>la:
         b.pop()
 ```
+
+## JavaScript
+```js
+function exchangeWith(a, b) {
+  let la = a.length, lb = b.length, i = 0, j = 0;
+  let t = [...b];
+  while (i<la) {
+    if (i>=lb) b.unshift(a[i]);
+    else b.unshift(a[i]);
+    i++;
+  }
+  while (j<lb) {
+    if (j>=la) a.unshift(t[j]);
+    else a.unshift(t[j]);
+    j++;
+  }
+  while (a.length>lb) a.pop();
+  while (b.length>la) b.pop();
+}
+```

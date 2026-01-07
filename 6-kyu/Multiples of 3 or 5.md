@@ -5,7 +5,8 @@ https://www.codewars.com/kata/514b92a657cdc65150000006
 def solution(number):
     i, somme = 1, 0
     while i<number:
-        if i%3 == 0 or i%5 == 0: somme += i
+        if i%3 == 0 or i%5 == 0:
+          somme += i
         i += 1
     return somme
 ```
@@ -16,7 +17,9 @@ function solution($number){
   $i = 1;
   $s = 0;
   while ($i<$number) {
-    if ($i%3 == 0 || $i%5 == 0) $s += $i;
+    if ($i%3 == 0 || $i%5 == 0) {
+      $s += $i;
+    }
     $i++;
   }
   return $s;
@@ -28,7 +31,9 @@ function solution($number){
 function solution(number){
   let [i, somme] = [1, 0];
   while (i<number) {
-    if (i%3 == 0 || i%5 == 0) somme += i;
+    if (i%3 == 0 || i%5 == 0) {
+      somme += i;
+    }
     i++;
   }
   return somme
@@ -42,7 +47,9 @@ public class Solution {
     int i = 1;
     int somme = 0;
     while (i<number) {
-      if (i%3 == 0 || i%5 == 0) somme += i;
+      if (i%3 == 0 || i%5 == 0) {
+        somme += i;
+      }
       i++;
     }
     return somme;
