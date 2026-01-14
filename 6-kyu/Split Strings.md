@@ -21,3 +21,25 @@ function solution(str){
   return t
 }
 ```
+
+## PHP
+```php
+function solution($str) {
+  if (strlen($str) == 0) return [];
+  $t = str_split($str, 2);
+  if (strlen($str)%2 == 1) $t[count($t)-1] .= "_";
+  return $t;
+}
+```
+
+## Java
+```java
+public class StringSplit {
+  public static String[] solution(String s) {
+    if (s.length() == 0) return new String[] {};
+    String[] st = s.split("(?<=\\G..)");
+    if (s.length()%2 == 1) st[st.length-1] += "_";
+    return st;
+  }
+}
+```
