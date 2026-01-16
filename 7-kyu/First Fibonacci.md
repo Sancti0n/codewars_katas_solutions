@@ -10,3 +10,16 @@ def solution(first, second):
         b = temp
     return (a, b)
 ```
+
+## JavaScript
+```js
+function solution(first,second) {
+  let a = first, b = second, temp = 0;
+  while (b-a<=a) {
+    temp = a;
+    a = b - a;
+    b = temp;
+  }
+  return [a, b]
+}
+```
