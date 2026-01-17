@@ -17,3 +17,17 @@ function onlyOne(...a) {
   return c>0 ? true: false
 }
 ```
+
+## Java
+```java
+public class OnlyOne {
+	public static boolean onlyOne(Boolean... args) {
+    int c = 0;
+    for (int i=0;i<args.length;i++) {
+      if (args[i] == true) c++;
+      if (c>1) return false;
+    }
+    return c>0 ? true: false;
+	}
+}
+```

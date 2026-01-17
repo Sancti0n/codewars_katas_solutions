@@ -30,3 +30,12 @@ public class MineFinder {
 	}
 }
 ```
+
+## PHP
+```php
+function mineLocation(array $field): array {
+  for ($i=0;$i<count($field);$i++) {
+    if (array_search(1, $field[$i])>-1) return [$i, array_search(1, $field[$i])];
+  }
+}
+```
