@@ -28,3 +28,10 @@ export const addFive = (num : number) : number => {
   return num + 5;
 }
 ```
+
+## PHP
+```php
+function addFive(int $num): int {
+  return $num + 5;
+}
+```

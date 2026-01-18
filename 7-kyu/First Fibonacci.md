@@ -23,3 +23,18 @@ function solution(first,second) {
   return [a, b]
 }
 ```
+
+## Java
+```java
+public class Kata {
+  public static int[] solution(int a, int b) {
+    int temp = 0;
+    while (b-a<=a) {
+      temp = a;
+      a = b - a;
+      b = temp;
+    }
+    return new int[] {a, b};
+  }
+}
+```
