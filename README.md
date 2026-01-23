@@ -4,10 +4,10 @@ Here are the solutions I post on Codewars, I've been active since 2022.
 
 ## Informations
 Rank: 2 kyu  
-Honor: 6,529  
-Leaderboard Position: #1,327  
-Honor Percentile: Top 0.179%  
-Total Completed Kata: 1,467  
+Honor: 6,571  
+Leaderboard Position: #1,312  
+Honor Percentile: Top 0.177%  
+Total Completed Kata: 1,480  
 Total Languages Trained: 12  
 Highest Trained: JavaScript (2 kyu)  
 
