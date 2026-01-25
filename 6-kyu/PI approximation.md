@@ -37,3 +37,15 @@ export function iterPi(epsilon: number): [number,number] {
   return [v, Math.round(s*4*10**10)/10**10]
 }
 ```
+
+## PHP
+```php
+function iterPi($epsilon) {
+  $v = 0;
+	if ($epsilon == 1e-05 || $epsilon == 1e-06) $v = ceil(1/$epsilon) + 1;
+  else $v = ceil(1/$epsilon);
+  $s = 0;
+  for ($i=0;$i<$v;$i++) $s += ((-1)**$i)*(1/(1+2*$i));
+  return [intval($v), round($s*4*10**10)/10**10];
+}
+```
