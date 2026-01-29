@@ -2,7 +2,7 @@
 
 Here are the solutions I post on Codewars, I've been active since 2022.
 
-Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
+Profile : [Codewars](https://www.codewars.com/users/Sancti0n)  
 ![image](https://www.codewars.com/users/Sancti0n/badges/large)
 
 ## Informations
