@@ -12,3 +12,10 @@ function contamination(text, char){
   return char.repeat(text.length)
 }
 ```
+
+## PHP
+```php
+function contamination(string $text, string $char): string {
+  return str_repeat($char, strlen($text));
+}
+```
