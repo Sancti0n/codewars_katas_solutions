@@ -38,3 +38,29 @@ public class Kata {
   }
 }
 ```
+
+## PHP
+```php
+function solution(int $a, int $b): array {
+  $temp = 0;
+  while ($b-$a<=$a) {
+    $temp = $a;
+    $a = $b - $a;
+    $b = $temp;
+  }
+  return [$a, $b];
+}
+```
+
+## TypeScript
+```ts
+export function solution(a: number, b: number): [number, number] {
+  let temp = 0;
+  while (b-a<=a) {
+    temp = a;
+    a = b - a;
+    b = temp;
+  }
+  return [a, b]
+}
+```
