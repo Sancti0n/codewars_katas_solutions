@@ -35,3 +35,28 @@ function sumDifferencesBetweenProductsAndLCMs(pairs) {
   return s
 }
 ```
+
+## Java
+```java
+import java.util.Arrays;
+
+public class Solution {
+  
+  public static int pgcd(int a, int b) {
+    if (b == 0) return a;
+    return pgcd(b,a%b);
+  }
+  
+  public static int sumDifferencesBetweenProductsAndLCMs(final int[][] pairs) {
+    if (pairs.length<1) return 0;
+    int s = 0;
+    for (int i=0;i<pairs.length;i++) {
+      Arrays.sort(pairs[i]);
+      if (pgcd(pairs[i][0], pairs[i][1]) != 0) {
+        s += pairs[i][0]*pairs[i][1] - (pairs[i][0]*pairs[i][1])/pgcd(pairs[i][0],pairs[i][1]);
+      }
+    }
+    return s;
+  }
+}
+```
