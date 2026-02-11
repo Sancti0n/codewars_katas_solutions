@@ -37,9 +37,8 @@ function areaOfPolygonInsideCircle($circleRadius, $numberOfSides): float {
 ## Java
 ```java
 public class Kata {
-  public static double areaOfPolygonInsideCircle(double circleRadius, int numberOfSides) {
-    return (double)Math.round(numberOfSides*Math.pow(circleRadius, 2)
-    *Math.sin(2*Math.PI/numberOfSides)*500)/1000;
+  public static double areaOfPolygonInsideCircle ( double circleRadius, int numberOfSides ) {
+    return (double) Math.round( numberOfSides * Math.pow( circleRadius, 2 ) * Math.sin( 2 * Math.PI / numberOfSides ) * 500 ) / 1000;
   }
 }
 ```
