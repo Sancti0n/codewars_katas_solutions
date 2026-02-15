@@ -43,3 +43,52 @@ export const otherAngle = (a: number, b: number): number => {
   return 180 - a - b
 }
 ```
+
+## Ruby
+```ruby
+def other_angle(a, b)
+  return 180 - a - b
+end
+```
+
+## Rust
+```rust
+fn other_angle(a: u32, b: u32) -> u32 {
+    return 180 - a - b
+}
+```
+
+## Dart
+```dart
+int otherAngle(int a, int b) {
+  return 180 - a - b;
+}
+```
+
+## C#
+```c#
+public static class Kata {
+  public static int OtherAngle(int a, int b) {
+    return 180 - a - b;
+  }
+}
+```
+
+## C++
+```c++
+class Triangle {
+
+public:
+
+    static int otherAngle(int a, int b) {
+        return 180 - a - b;
+    }
+};
+```
+
+## C
+```c
+int other_angle(int a, int b) {
+  return 180 - a - b;
+}
+```
