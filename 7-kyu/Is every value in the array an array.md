@@ -11,16 +11,11 @@ def arr_check(arr):
 
 ## JavaScript
 ```js
-function deleteValues(array, pred) {
-  let i = 0, l = array.length;
-  while (i<l) {
-    if (pred(array[i])) {
-      array.splice(i, 1);
-      l--;
-      i--;
-    }
-    i++;
+const arrCheck = value => {
+  if (value.length<1 && Array.isArray(value)) return true
+  for (let i=0;i<value.length;i++) {
+    if (!Array.isArray(value[i])) return false
   }
-  return array
+  return true
 }
 ```
