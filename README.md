@@ -21,7 +21,7 @@ Highest Trained: JavaScript (2 kyu)
 | **4 kyu** (Pro)      | **3** |
 | **5 kyu** (Intermédiaire) | **35** |
 | **6 kyu** (Basique)  | **196** |
-| **7 kyu** (Novice)   | **8885** |
+| **7 kyu** (Novice)   | **885** |
 | **8 kyu** (Débutant) | **339** |
 
 ## Répartition des algorithmes par langage, total et nombre de solutions uniques
