@@ -28,3 +28,19 @@ function menFromBoys(arr){
   return a.concat(b)
 }
 ```
+
+## PHP
+```php
+function menFromBoys($arr) {
+  $arr = array_unique($arr);
+  sort($arr);
+  $a = [];
+  $b = [];
+  for ($i=0;$i<count($arr);$i++) {
+    if ($arr[$i]%2) $b[] = $arr[$i];
+    else $a[] = $arr[$i];
+  }
+  $b = array_reverse($b);
+  return array_merge($a, $b);
+}
+```
