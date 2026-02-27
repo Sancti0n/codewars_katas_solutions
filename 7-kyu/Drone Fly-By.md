@@ -13,3 +13,12 @@ def fly_by(lamps, drone):
     if len(drone)>=len(lamps): return 'o'*len(lamps)
     return 'o'*len(drone) + lamps[len(drone):]
 ```
+
+## Java
+```java
+public class Kata {
+  public static String flyBy(String lamps, String drone) {
+    return drone.length()>=lamps.length() ? "o".repeat(lamps.length()): "o".repeat(drone.length()) + lamps.substring(drone.length());
+  }
+}
+```
