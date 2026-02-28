@@ -14,3 +14,24 @@ function calculate(num1, operation, num2) {
   return eval(num1.toString()+operation+num2.toString())
 }
 ```
+
+## Java
+```java
+import java.util.Arrays;
+
+public class Calculator {
+  public static Double calculate(double a, String operator, double b) {
+    String[] op = {"+", "-", "*", "/"};
+    if (operator == "/" && b == 0 || Arrays.asList(op).contains(operator) == false) {
+      return null;
+    }
+    else {
+      if (operator == "+") return a+b;
+      if (operator == "-") return a-b;
+      if (operator == "*") return a*b;
+      if (operator == "/") return a/b;
+    }
+    return 0.0;
+  }
+}
+```
