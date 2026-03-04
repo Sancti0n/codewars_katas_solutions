@@ -56,3 +56,17 @@ public class Solution {
   }
 }
 ```
+
+## TypeScript
+```ts
+export class Challenge {
+  static solution(num: number) {
+    let i = 1, somme = 0;
+    while (i<num) {
+      if (i%3 == 0 || i%5 == 0) somme += i;
+      i++;
+    }
+    return somme
+  }
+}
+```
