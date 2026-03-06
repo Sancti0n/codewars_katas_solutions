@@ -45,3 +45,18 @@ public class TenMinWalk {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function isValidWalk(walk: string[]) {
+  if (walk.length!=10) return false
+  let t = [0,0];
+  for (let i=0;i<walk.length;i++) {
+    if (walk[i]=="n") t[0]++;
+    else if (walk[i]=="s") t[0]--;
+    else if (walk[i]=="w") t[1]++;
+    else if (walk[i]=="e") t[1]--;
+  }
+  return t[0] == 0 && t[1] == 0
+}
+```
