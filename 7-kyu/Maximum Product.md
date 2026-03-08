@@ -27,13 +27,39 @@ function adjacentElementsProduct(arr) {
 }
 ```
 
-## JavaScript
-```js
+## Python
+```py
 def adjacent_element_product(arr):
     a = 0
     for i in range(len(arr)):
-        if i == 0: a = arr[i]*arr[i+1]
-        if i+1 == len(arr): return a
+        if i == 0:
+          a = arr[i]*arr[i+1]
+        if i+1 == len(arr):
+          return a
         else:
-            if arr[i]*arr[i+1]>a: a = arr[i]*arr[i+1]
+            if arr[i]*arr[i+1]>a:
+              a = arr[i]*arr[i+1]
+```
+
+## Java
+```java
+public class MaxProduct {
+  public int adjacentElementsProduct(int[] arr) {
+    int s = 0;
+    for (int i=0;i<arr.length;i++) {
+      if (i == 0) {
+        s = arr[i]*arr[i+1];
+      }
+      if (i+1 == arr.length) {
+        return s;
+      }
+      else {
+        if (arr[i]*arr[i+1]>s) {
+          s = arr[i]*arr[i+1];
+        }
+      }
+    }
+    return s;
+  }
+}
 ```

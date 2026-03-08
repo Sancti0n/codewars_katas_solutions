@@ -47,3 +47,13 @@ class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function getMiddle(s:string) {
+  let l = s.length;
+  if (l === 1) return s
+  if (l%2) return s[Math.trunc(l/2)]
+  return s[Math.trunc((l/2)-1)] + s[Math.trunc(l/2)]
+}
+```
