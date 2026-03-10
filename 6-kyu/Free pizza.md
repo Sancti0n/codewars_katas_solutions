@@ -9,3 +9,18 @@ def pizza_rewards(customers, min_orders, min_price):
             t.append(i)
     return t
 ```
+
+## JavaScript
+```js
+function pizzaRewards(customers, minOrders, minPrice) {
+  let t = [], c = 0;
+  for (let i in customers) {
+    for (let j=0;j<customers[i].length;j++) {
+      if (customers[i][j]>=minPrice) c++;
+    }
+    if (c>=minOrders) t.push(i);
+    c = 0;
+  }
+  return t
+}
+```
