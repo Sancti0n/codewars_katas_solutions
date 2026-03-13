@@ -43,19 +43,35 @@ Highest Trained: JavaScript (2 kyu)
 | Nombre d'algorithmes cumulés | | 3638 |
 | Nombre de solutions uniques  | | 1620 |
 
-## Compétences & Thématiques Algorithmiques
-| **Logique & Puzzles** | **Mathématiques** | **Technique** |
-| :--- | :--- | :--- |
-| • Algorithmes | • Algèbre | • Base de données / SQL |
-| • Games (Logique) | • Mathématiques | • Big Integers |
-| • Puzzles | • Géométrie | • Binaire |
-| • Contraintes | • Combinatoire | • Cryptographie |
-| • Manipulation de listes | • Matrice | • Data Science |
+## Compétences & Thématiques Algorithmiques (Codewars)
 
-| **Traitement de données** | **Développement** | **Autres** |
+### Logique, Algorithmique & Puzzles
+| **Fondamentaux** | **Structures & Graphes** | **Puzzles & Défis** |
 | :--- | :--- | :--- |
-| • Manipulation de strings | • Fondamentaux | • Art ASCII |
-| • Parsing | • POO | • Date Time |
-| • Structure de données | • Recursion | • Débogage |
-| • Tri | • Performance & Optimisation | • Tutoriaux |
-| • Expression régulière | • Réseau | • Tri |
+| • Algorithmes | • Listes & Linked Lists | • Puzzles & Games |
+| • Logique | • Tableaux (Arrays) | • Algorithmes Génétiques |
+| • Récursion | • Ensembles (Sets) | • Contraintes (Restricted) |
+| • Tri (Sorting) | • Graphes (Graphs) | • Physique |
+| • Filtrage (Filtering) | • Structures de données | • Refactoring |
+
+### Mathématiques & Sciences
+| **Algèbre & Analyse** | **Théorie & Probabilités** | **Géométrie & Matrices** |
+| :--- | :--- | :--- |
+| • Mathématiques | • Théorie des nombres | • Géométrie |
+| • Algèbre Linéaire | • Probabilités | • Matrices |
+| • Algèbre | • Statistiques | • Combinatoire |
+
+### Technique & Développement
+| **Paradigmes & Qualité** | **Data & Sécurité** | **Système & Bas Niveau** |
+| :--- | :--- | :--- |
+| • Fondamentaux | • Bases de données / SQL | • Binaire (Binary / Bits) |
+| • POO (OOP) | • Data Science | • Cryptographie & Ciphers |
+| • Programmation Fonctionnelle | • Sécurité | • Réseau (Networks) |
+| • Débogage | • Performance & Optimisation | • Big Integers |
+
+### Traitement de Données & Texte
+| **Strings & Parsing** | **Formatage & Encodage** | **Divers** |
+| :--- | :--- | :--- |
+| • Manipulation de Strings | • ASCII Art | • Tutoriaux |
+| • Expressions Régulières | • Unicode | • Date & Time |
+| • Parsing | • Language Features | |
