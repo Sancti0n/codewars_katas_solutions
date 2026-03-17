@@ -57,3 +57,25 @@ function easyLine(n) {
   return Math.round(Math.log(s));
 }
 ```
+
+## PHP
+```php
+function easyline(int $n): int {
+  $s = 1;
+  for ($i=1;$i<=$n;$i++) {
+    $s *= ($n+$i)/$i;
+  }
+  return round(log($s));
+}
+```
+
+## TypeScript
+```ts
+export function easyLine(n: number): number {
+  let s = 1;
+  for (let i=1;i<=n;i++) {
+    s *= (n+i)/i;
+  }
+  return Math.round(Math.log(s));
+}
+```
