@@ -35,3 +35,14 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function filter_list(l:Array<any>):Array<number> {
+  let t = [];
+  for (let i=0;i<l.length;i++) {
+    if (typeof l[i] == "number") t.push(l[i]);
+  }
+  return t
+}
+```
