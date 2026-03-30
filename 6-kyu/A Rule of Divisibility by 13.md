@@ -61,3 +61,28 @@ function thirt($n) {
   return $s;
 }
 ```
+
+## TypeScript
+```ts
+export function sumArr(a: string, t: any[]): number {
+  let s = 0;
+  for (let i=0;i<a.length;i++) {
+    s += parseInt(a[i])*t[i%6];
+  }
+  return s
+}
+
+export function thirt(n: number): number {
+  let t = [1,10,9,12,3,4];
+  let v = n.toString().split("").reverse().join("");
+  let s = sumArr(v, t);
+  let st = "";
+  let temp = 0;
+  while (s != temp) {
+    temp = s;
+    st = s.toString().split("").reverse().join("");
+    s = sumArr(st, t);
+  }
+  return s
+}
+```
