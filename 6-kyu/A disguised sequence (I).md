@@ -31,3 +31,37 @@ class HiddenSeq {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function fcn(n: number): number {
+  return 2**n;
+}
+```
+
+## Ruby
+```ruby
+def fcn(n)
+  return 2**n
+end
+```
+
+## C#
+```c#
+using System;
+using System.Numerics;
+
+public class HiddenSeq {
+  public static BigInteger fcn(int n) {
+    BigInteger value = BigInteger.Pow(2, n);
+    return value;
+  }
+}
+```
+
+## C
+```c
+unsigned long long fcn(int n) {
+  return pow(2, n);
+}
+```
