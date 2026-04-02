@@ -33,3 +33,10 @@ public class SmallestIntegerFinder {
     }
 }
 ```
+
+## TypeScript
+```ts
+export function findSmallestInt(args: number[]): number {
+  return Math.min(...args);
+}
+```
