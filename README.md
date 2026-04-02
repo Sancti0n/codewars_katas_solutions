@@ -7,10 +7,10 @@ Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
 
 ## Informations
 Rank: 2 kyu  
-Honor: 7,302  
-Leaderboard Position: #1,150  
-Honor Percentile: Top 0.153%  
-Total Completed Kata: 1,649  
+Honor: 7,423  
+Leaderboard Position: #1,132  
+Honor Percentile: Top 0.151%  
+Total Completed Kata: 1,662  
 Total Languages Trained: 13  
 Highest Trained: JavaScript (2 kyu)  
 
@@ -19,29 +19,29 @@ Highest Trained: JavaScript (2 kyu)
 | :------------------- | :------------------------ |
 | **3 kyu** (Expert)   | **1** |
 | **4 kyu** (Pro)      | **3** |
-| **5 kyu** (Intermédiaire) | **37** |
-| **6 kyu** (Basique)  | **214** |
-| **7 kyu** (Novice)   | **916** |
+| **5 kyu** (Intermédiaire) | **39** |
+| **6 kyu** (Basique)  | **225** |
+| **7 kyu** (Novice)   | **917** |
 | **8 kyu** (Débutant) | **340** |
 
 ## Répartition des algorithmes par langage, total et nombre de solutions uniques
 | Langage | Rang (8 kyu -> 1 dan) | Nombre d'algorithmes |
 | :------ | :-------------------: | :------------------: |
-| JavaScript | 2 kyu | 1421 |
-| Python | 2 kyu | 1327 |
-| PHP | 4 kyu | 371 |
-| Java | 4 kyu | 370 |
-| TypeScript | 5 kyu | 129 |
+| JavaScript | 2 kyu | 1432 |
+| Python | 2 kyu | 1334 |
+| PHP | 4 kyu | 374 |
+| Java | 4 kyu | 374 |
+| TypeScript | 5 kyu | 138 |
 | SQL | 6 kyu | 47 |
-| C | 8 kyu | 7 |
+| C | 7 kyu | 8 |
 | Dart | 8 kyu | 6 |
-| C# | 8 kyu | 4 |
-| Ruby | 8 kyu | 4 |
+| C# | 8 kyu | 5 |
+| Ruby | 7 kyu | 5 |
 | C++ | 8 kyu | 3 |
 | Rust | 8 kyu | 2 |
 | D | 8 kyu | 1 |
-| Nombre d'algorithmes cumulés | | 3692 |
-| Nombre de solutions uniques  | | 1649 |
+| Nombre d'algorithmes cumulés | | 3729 |
+| Nombre de solutions uniques  | | 1663 |
 
 ## Compétences & Thématiques Algorithmiques (Codewars)
 
