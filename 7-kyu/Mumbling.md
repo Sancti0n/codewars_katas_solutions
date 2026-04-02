@@ -31,3 +31,14 @@ function accum(s) {
   return w.substring(0, w.length-1)
 }
 ```
+
+## TypeScript
+```ts
+export function accum(s: string): string {
+  let w = '';
+  for (let i=0;i<s.length;i++) {
+    w += s[i].toUpperCase() + s[i].toLowerCase().repeat(i) + '-';
+  }
+  return w.substring(0, w.length-1)
+}
+```
