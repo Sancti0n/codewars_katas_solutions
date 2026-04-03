@@ -53,3 +53,17 @@ public class Vowels {
   }
 }
 ```
+
+## TypeScript
+```ts
+export class Kata {
+  static getCount(str: string): number {
+    var v = 0;
+    let t = ['a','e','i','o','u'];
+    for (let i=0;i<str.length;i++) {
+      if (t.indexOf(str[i])>-1) v++;
+    }
+    return v
+  }
+}
+```
