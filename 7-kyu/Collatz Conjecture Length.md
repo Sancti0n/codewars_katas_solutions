@@ -42,3 +42,16 @@ public class Collatz {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function collatz(n:number):number{
+  let s = 1;
+  while (n != 1) {
+    if (n%2) n = n*3 + 1;
+    else n = Math.trunc(n/2);
+    s += 1;
+  }
+  return s
+}
+```
