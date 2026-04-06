@@ -34,3 +34,15 @@ function evaporator($content, $evap_per_day, $threshold) {
   return $c;
 }
 ```
+
+## TypeScript
+```ts
+export function evaporator(content: number, evapPerDay: number, threshold: number): number {
+  let [v, c] = [content, 0];
+  while (v>(threshold/100)*content) {
+    v = v-v*evapPerDay/100;
+    c++;
+  }
+  return c
+}
+```
