@@ -20,3 +20,15 @@ function disariumNumber(n){
   return s == n ? "Disarium !!": "Not !!"
 }
 ```
+
+## TypeScript
+```ts
+export function disariumNumber(n: number): string {
+  let l = n.toString();
+  let s = 0;
+  for (let i=0;i<l.length;i++) {
+    s += parseInt(l[i])**(i+1);
+  }
+  return s == n ? "Disarium !!": "Not !!"
+}
+```
