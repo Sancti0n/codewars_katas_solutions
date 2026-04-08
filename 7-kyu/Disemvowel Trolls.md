@@ -36,3 +36,18 @@ function disemvowel($string) {
   return $w;
 }
 ```
+
+## TypeScript
+```ts
+export class Kata {
+  static disemvowel(str: string): string {
+    let t = ['a','e','i','o','u'], w = '';
+    for (let i=0;i<str.length;i++) {
+      if (t.indexOf(str[i].toLowerCase()) === -1) {
+        w += str[i];
+      }
+    }
+    return w;
+  }
+}
+```
