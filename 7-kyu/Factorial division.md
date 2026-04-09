@@ -13,11 +13,35 @@ function factorialDivision(n, d) {
 ```
 
 ## Python
-````python
+```python
 def factorial_division(n, d):
     m = 1
     while n>d:
         m *= n
         n -= 1
     return m
+```
+
+## TypeScript
+```ts
+export function factorialDivision(n: bigint, d:bigint){
+  let m = 1n;
+  while (n>d) {
+    m *= n;
+    n--;
+  }
+  return m
+}
+```
+
+## C
+```c
+long long factorial_division(long long n, long long d) {
+  long m = 1;
+  while (n>d) {
+    m *= n;
+    n--;
+  }
+  return m;
+}
 ```
