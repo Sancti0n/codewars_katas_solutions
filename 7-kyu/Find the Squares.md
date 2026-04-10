@@ -20,3 +20,14 @@ def find_squares(num):
     min = num - max
     return f'{max**2}-{min**2}'
 ```
+
+## TypeScript
+```ts
+export const findSquares = (num:number):string => {
+  let i = 1;
+  while ((i+1)**2 - i**2 != num) {
+    i++;
+  }
+  return `${(i+1)**2}-${i**2}`
+};
+```
