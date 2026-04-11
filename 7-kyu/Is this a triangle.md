@@ -38,3 +38,11 @@ function isTriangle(int $a, int $b, int $c): bool{
   return $a+$b+$c > 2*$t[count($t)-1];
 }
 ```
+
+## TypeScript
+```ts
+export function isTriangle(a: number, b: number, c: number): boolean {
+  let v = [a,b,c], i = 0;
+  return v.reduce((a,b)=>a+b,i)-2*Math.max(...v)>0
+}
+```
