@@ -12,3 +12,10 @@ function mod256WithoutMod(number) {
   return number - 256*parseInt(number/256);
 }
 ```
+
+## TypeScript
+```ts
+export function mod256WithoutMod(n:number):number{
+  return n - 256*Math.trunc(n/256)
+}
+```
