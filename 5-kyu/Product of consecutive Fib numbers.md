@@ -55,3 +55,14 @@ public class ProdFib {
   }
 }
 ```
+
+## TypeScript
+```ts
+export const productFib = (prod:number): [number,number,boolean] => {
+  let a = 0, b = 1, m = 0;
+  while (prod > a * b) {
+    m = a, a = b, b = m + b;
+  }
+  return [a, b, prod == a * b]
+}
+```
