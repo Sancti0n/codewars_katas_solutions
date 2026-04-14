@@ -12,3 +12,16 @@ function nextHigher(n) {
   return nextHigherOneBit | rightOnesPattern
 }
 ```
+
+## TypeScript
+```ts
+function nextHigher(n) {
+  let rightOne, nextHigherOneBit, rightOnesPattern;
+  rightOne = n & -n;
+  nextHigherOneBit = n + rightOne;
+  rightOnesPattern = n ^ nextHigherOneBit;
+  rightOnesPattern = (rightOnesPattern)/rightOne;
+  rightOnesPattern >>= 2;
+  return nextHigherOneBit | rightOnesPattern
+}
+```
