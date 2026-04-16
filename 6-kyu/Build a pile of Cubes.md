@@ -45,3 +45,18 @@ export function findNb(m: number): number {
   return -1
 }
 ```
+
+## Java
+```java
+public class ASum {
+  public static long findNb(long m) {
+    long res = 0;
+    long n = 0;
+    while (res<m) {
+      n += 1;
+      res += n*n*n;
+    }
+    return res == m ? n : -1;
+  }
+}
+```
