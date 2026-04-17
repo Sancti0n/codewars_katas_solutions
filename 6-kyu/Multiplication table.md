@@ -25,3 +25,17 @@ multiplicationTable = function(size) {
   return tab
 }
 ```
+
+## TypeScript
+```ts
+export function multiplicationTable (size: number): number[][] {
+  let tab = [];
+  let t = [...Array(size+1).keys()].slice(1);
+  let i = 1;
+  while (i<=size) {
+    tab.push(t.map(function(x) { return x * i; }));
+    i += 1;
+  }
+  return tab
+}
+```
