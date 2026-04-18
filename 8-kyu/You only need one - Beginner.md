@@ -15,8 +15,8 @@ function check(a, x) {
 
 ## PHP
 ```php
-function solution($a, $x) {
-  return in_array($x, $a);
+function solution(array $a, $x) : bool {
+  return in_array($x, $a, TRUE);
 }
 ```
 
@@ -28,5 +28,12 @@ public class Solution {
   public static boolean check(Object[] a, Object x) {
     return Arrays.asList(a).contains(x);
   }
+}
+```
+
+## TypeScript
+```ts
+export const check = (a: (number | string)[], x: number | string): boolean => {
+  return a.indexOf(x)>-1
 }
 ```
