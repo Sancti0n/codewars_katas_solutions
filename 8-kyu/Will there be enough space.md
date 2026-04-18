@@ -32,3 +32,10 @@ public class Bob {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function enough(cap: number, on: number, wait: number): number {
+  return cap <= on+wait ? wait-cap+on : 0;
+}
+```
