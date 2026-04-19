@@ -43,3 +43,16 @@ function between(int $a, int $b): array {
   return $t;
 }
 ```
+
+## TypeScript
+```ts
+export function between(a: number, b: number): number[] {
+  let t = [];
+  let i = Math.min(a, b);
+  while (i<=b) {
+    t.push(i);
+    i++;
+  }
+  return t;
+}
+```
