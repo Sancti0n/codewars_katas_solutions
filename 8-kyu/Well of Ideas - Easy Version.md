@@ -29,3 +29,12 @@ public class Kata {
   }
 }
 ```
+
+## TypeScript
+```ts
+export function well(x: string[]): string{
+  if (x.filter(elt => elt === "good").length == 0) return "Fail!"
+  if (x.filter(elt => elt === "good").length == 1 || x.filter(elt => elt === "good").length == 2) return "Publish!"
+  return "I smell a series!"
+}
+```
