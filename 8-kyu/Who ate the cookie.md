@@ -16,3 +16,18 @@ function cookie(x){
   return "Who ate the last cookie? It was the dog!"
 }
 ```
+
+## Java
+```java
+public class Cookie {
+	public static String cookie(Object x) {
+    if (x.getClass() == String.class) {
+      return "Who ate the last cookie? It was Zach!";
+    }
+    if (x.getClass() == Float.class || x.getClass() == Integer.class || x.getClass() == Double.class) {
+      return "Who ate the last cookie? It was Monica!";
+    }
+		return "Who ate the last cookie? It was the dog!";
+	}
+}
+```
