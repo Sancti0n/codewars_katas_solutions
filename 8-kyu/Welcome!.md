@@ -76,3 +76,65 @@ function greet(string $l): string {
   else return "Welcome";
 }
 ```
+
+## Java
+```java
+import java.util.*;
+
+public class Welcome {
+  public static String greet(String language) {
+    Map<String, String> d = Map.ofEntries(
+      Map.entry("english", "Welcome"),
+      Map.entry("czech", "Vitejte"),
+      Map.entry("danish", "Velkomst"),
+      Map.entry("dutch", "Welkom"),
+      Map.entry("estonian", "Tere tulemast"),
+      Map.entry("finnish", "Tervetuloa"),
+      Map.entry("flemish", "Welgekomen"),
+      Map.entry("french", "Bienvenue"),
+      Map.entry("german", "Willkommen"),
+      Map.entry("irish", "Failte"),
+      Map.entry("italian", "Benvenuto"),
+      Map.entry("latvian", "Gaidits"),
+      Map.entry("lithuanian", "Laukiamas"),
+      Map.entry("polish", "Witamy"),
+      Map.entry("spanish", "Bienvenido"),
+      Map.entry("swedish", "Valkommen"),
+      Map.entry("welsh", "Croeso")
+    );
+    if (d.containsKey(language)) {
+      return d.get(language);
+    }
+    return "Welcome";
+  }
+}
+```
+
+## TypeScript
+```ts
+export function greet(language: string): string {
+  let d: Record<string, string> = {
+    'english': 'Welcome',
+    'czech': 'Vitejte',
+    'danish': 'Velkomst',
+    'dutch': 'Welkom',
+    'estonian': 'Tere tulemast',
+    'finnish': 'Tervetuloa',
+    'flemish': 'Welgekomen',
+    'french': 'Bienvenue',
+    'german': 'Willkommen',
+    'irish': 'Failte',
+    'italian': 'Benvenuto',
+    'latvian': 'Gaidits',
+    'lithuanian': 'Laukiamas',
+    'polish': 'Witamy',
+    'spanish': 'Bienvenido',
+    'swedish': 'Valkommen',
+    'welsh': 'Croeso'
+  };
+  if (d.hasOwnProperty(language)) {
+    return d[language];
+  }
+  return 'Welcome';
+}
+```
