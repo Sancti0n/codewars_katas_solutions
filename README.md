@@ -7,11 +7,11 @@ Profile : [Codewars](https://www.codewars.com/users/Sancti0n)
 
 ## Informations
 Rank: 2 kyu  
-Honor: 8,001  
-Leaderboard Position: #1,054  
-Honor Percentile: Top 0.137%  
-Total Completed Kata: 1,786  
-Total Languages Trained: 13  
+Honor: 8,121  
+Leaderboard Position: #1,047  
+Honor Percentile: Top 0.136%  
+Total Completed Kata: 1,811  
+Total Languages Trained: 18  
 Highest Trained: JavaScript (2 kyu)  
 
 ## Nombres d'algorithmes par difficultés (8 kyu, le plus bas, 1 dan, le plus élevé)
@@ -19,29 +19,34 @@ Highest Trained: JavaScript (2 kyu)
 | :------------------- | :------------------------ |
 | **3 kyu** (Expert)   | **1** |
 | **4 kyu** (Pro)      | **5** |
-| **5 kyu** (Intermédiaire) | **50** |
-| **6 kyu** (Basique)  | **279** |
-| **7 kyu** (Novice)   | **1024** |
-| **8 kyu** (Débutant) | **384** |
+| **5 kyu** (Intermédiaire) | **51** |
+| **6 kyu** (Basique)  | **285** |
+| **7 kyu** (Novice)   | **1036** |
+| **8 kyu** (Débutant) | **391** |
 
 ## Répartition des algorithmes par langage, total et nombre de solutions uniques
 | Langage | Rang (8 kyu -> 1 dan) | Nombre d'algorithmes |
 | :------ | :-------------------: | :------------------: |
-| JavaScript | 2 kyu | 1538 |
-| Python | 2 kyu | 1438 |
-| TypeScript | 4 kyu | 451 |
-| Java | 4 kyu | 435 |
-| PHP | 4 kyu | 427 |
+| JavaScript | 2 kyu | 1559 |
+| Python | 2 kyu | 1459 |
+| TypeScript | 4 kyu | 453 |
+| Java | 4 kyu | 441 |
+| PHP | 4 kyu | 430 |
 | SQL | 6 kyu | 50 |
-| Ruby | 7 kyu | 17 |
-| C | 7 kyu | 15 |
-| C# | 7 kyu | 11 |
-| C++ | 8 kyu | 7 |
-| Dart | 8 kyu | 6 |
-| Rust | 8 kyu | 2 |
+| Ruby | 7 kyu | 18 |
+| C | 7 kyu | 16 |
+| C# | 7 kyu | 12 |
+| C++ | 8 kyu | 9 |
+| Dart | 8 kyu | 7 |
+| Rust | 8 kyu | 3 |
+| CoffeeScript | 8 kyu | 3 |
+| R | 8 kyu | 2 |
+| Crystal | 8 kyu | 2 |
 | D | 8 kyu | 1 |
-| Nombre d'algorithmes cumulés | | 4398 |
-| Nombre de solutions uniques  | | 1786 |
+| Lua | 8 kyu | 1 |
+| Scala | 8 kyu | 1 |
+| Nombre d'algorithmes cumulés | | 4467 |
+| Nombre de solutions uniques  | | 1812 |
 
 ## Compétences & Thématiques Algorithmiques (Codewars)
 
